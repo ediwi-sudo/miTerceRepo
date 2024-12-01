@@ -15,3 +15,10 @@ def get_familia():
 def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
+
+
+    
+@app.get("/losMejoressuperheroesMV")
+def get_superheroes():
+    rows = ["Wolwerin", "Spiderman", "Iroman", "Thor", "Ghos Rider",]
+    return rows
